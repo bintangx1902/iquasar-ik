@@ -39,7 +39,7 @@ def set_servo(pin, angle):
 
 def inverse_kinematics(pin: list):
     th = []
-    theta = [135, 90, 90]
+    theta = [135, 120, 100, 140, 90, 90]
 
     for i in pin:
         thread = threading.Thread(target=set_servo, args=(i, theta[i]))
