@@ -53,6 +53,13 @@ def set_servo(pin, angle):
 
 
 def movement(pin: list, x, y, z):
+    """
+    :param pin: must be array with maximum length is 6 | the pin is attached pin to the PCA9685 board for cross feet
+    :param x: must be array with maxium length is 2 | x1 for the front and x2 for rear (cross)
+    :param y: must be same like x
+    :param z: must be same like y
+    :return: function return nothing but it moves the servo
+    """
     th = []
     theta = []
 
