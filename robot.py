@@ -1,4 +1,4 @@
-from move import inverse_kinematics
+from move import movement
 
-inverse_kinematics([0, 1, 2, 3, 4, 5])
+print(movement([1,], [0, 3], [1, 4], [2, 5]))
 
